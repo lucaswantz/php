@@ -8,7 +8,6 @@
     // Botão enviar
     if(isset($_POST['btn-entrar'])):
         $erros = array();
-
         $login = mysqli_escape_string($connection, $_POST['login']);
         $senha = mysqli_escape_string($connection, $_POST['senha']);
 
